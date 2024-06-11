@@ -1,4 +1,4 @@
-import { error } from "console";
+
 import User from "../models/user.model.js";
 import bcryptjs from 'bcryptjs';
 
@@ -15,7 +15,8 @@ export const signup = async (req, res, next) => {
     } catch (error){
         
         next(error);
-    }
+
+    } 
 
     
     
