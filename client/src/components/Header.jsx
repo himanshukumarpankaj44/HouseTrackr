@@ -10,8 +10,8 @@ export default function Header() {
 
          <h1 className='font-bold text-sm sm:text-xl flex
           flex-wrap'>
-            <span className='text-slate-500'>Himanshu</span>
-            <span className='text-slate-700'>Estate</span>
+            <span className='text-slate-500'>House</span>
+            <span className='text-slate-700'>Trackr</span>
          </h1>
         </Link>
         <form  className='bg-slate-100 p-3 rounded-lg flex
